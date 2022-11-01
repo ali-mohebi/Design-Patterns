@@ -75,6 +75,7 @@ class JoyfulState(val mammoth: Mammoth) : State
 class Mammoth
 {
     private var state: State
+    // transition method
     fun timePasses()
     {
         when(state)
